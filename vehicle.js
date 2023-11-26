@@ -45,14 +45,10 @@
       
     }
     wander() {
-      // point devant le véhicule
       let wanderPoint = this.vel.copy();
       wanderPoint.setMag(100);
       wanderPoint.add(this.pos);
-      
-      // on le dessine sous la forme d'une petit cercle rouge
-       //fill(255, 0, 0);
-       //noStroke();
+    
        //circle(wanderPoint.x, wanderPoint.y, 8);
   
       // Cercle autour du point

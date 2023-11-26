@@ -49,7 +49,6 @@ function draw() {
     o.show();
   });
 
-  // Handle spawning an obstacle when 'o' is pressed
  
 
   // Update and draw the vehicles
@@ -108,7 +107,7 @@ function keyPressed() {
     leader.maxSpeed = 5;
     leader.maxfore=4;
   } else if (key == "f") {
-    // Toggle between leaderFollowingModes on 'm' key press
+    // Toggle between leaderFollowingModes on 'f' key press
     if (leaderFollowingMode === "queueLeuLeu") {
       leaderFollowingMode = "Troupeau";
     } else {
@@ -116,7 +115,6 @@ function keyPressed() {
     }
     console.log("Leader Following Mode: " + leaderFollowingMode);
   }
-  // Other key bindings...
 }
 
 
