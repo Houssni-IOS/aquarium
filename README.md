@@ -1,1 +1,1 @@
-# aquarium
+Le travail représente un aquarium . le poisson en blanc est le leader ce dernier suit le curseur de l'utilisateur . Quand on clique sur la touche "v" on crée un poisson (noir) qui suit directement le leader et après la création de plusieurs poissons  , l'effet queue leu leu  est réalisé . Quand on clique sur la touche "f" l'effet queue leu leu est altéré en "troupeau" qui rend tous les poissons sous la soumission du curseur sans execption et enfin le mouse click qui permet la création des obstacles 
